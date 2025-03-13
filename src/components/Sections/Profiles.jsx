@@ -1,5 +1,14 @@
 import React from "react";
 import styled from "styled-components";
+import lnk from "../../images/plinkedin.png";
+import hr from "../../images/phr.png";
+import ins from "../../images/pinsta.png";
+import kag from "../../images/pkaggle.png";
+import git from "../../images/pgithub.png";
+import pbh from "../../images/pbehance.png";
+
+
+
 
 const ProfileContainer = styled.div`
   width: 100%;
@@ -75,32 +84,33 @@ const RealTimeProfiles = () => {
     {
       name: "LinkedIn",
       url: "https://www.linkedin.com/in/n-krishna-chowdary-pathuri-943960243/",
-      image: "/images/plinkedin.png", // Local image path
+      image: lnk, // Local image path
+      
     },
     {
       name: "GitHub",
       url: "https://github.com/nkcpathuri",
-      image: "/images/pgithub.png", // Local image path
+      image: git, // Local image path
     },
     {
       name: "Behance",
       url: "https://www.behance.net/nkcpathuri",
-      image: "/images/pbehance.png", // Local image path
+      image: pbh, // Local image path
     },
     {
       name: "Instagram",
       url: "https://www.instagram.com/infinitewizcrafts/",
-      image: "/images/pinsta.png", // Local image path
+      image: ins, // Local image path
     },
     {
       name: "Hacker Rank",
       url: "https://www.hackerrank.com/profile/h2100032143",
-      image: "/images/phr.png", // Local image path
+      image: hr, // Local image path
     },
     {
       name: "Kaggle",
       url: "https://www.kaggle.com/nkcpathuri",
-      image: "/images/pkaggle.png", // Local image path
+      image: kag, // Local image path
     },
 
     

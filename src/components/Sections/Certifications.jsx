@@ -1,54 +1,61 @@
 import React from "react";
 import styled from "styled-components";
+import cp from "../../images/cp.png";
+import da from "../../images/da.png";
+import dbx from "../../images/databricks.png";
+import aa from "../../images/aa.png";
+import rh from "../../images/redhat.png";
+
+
 
 const certifications = [
     {
       title: "Pega Certified Senior System Architect",
       provider: "Pega",
-      image: "/images/cssa.png",
+      image: "https://academyartifacts.s3.amazonaws.com/Images/Prod/PEGACPSSA88V1_Current.png",
       credentialLink: "https://drive.google.com/file/d/1N9CYusytpFc6VoBEcFKZQeSQqc9tJkr5/view?usp=sharing"
     },
     {
       title: "Pega Certified System Architect",
       provider: "Pega",
-      image: "/images/csa.png",
+      image: "https://academy.pega.com/sites/default/files/styles/480/public/media/images/2024-08/BA.png?itok=dw5X23-q",
       credentialLink: "https://drive.google.com/file/d/1ATppzN32VXl8QDRWTupIApQm3MhTQb_u/view"
     },
     {
         title: "Google Tensorflow Developer",
-        provider: "Google Cloud",
-        image: "/images/tensorflow.png",
+        provider: "Google",
+        image: "https://www.thetestspecimen.com/img/tensorflow-certificate/tensorflow-badge-1920w.png",
         credentialLink: "https://www.credential.net/f5d82822-ab03-4d86-8bb0-1af35b7a8c4b#acc.LK9xrIY4"
       },
       {
         title: "Databricks Generative AI Fundamentals",
         provider: "Databricks",
-        image: "/images/databricks.png",
+        image: dbx,
         credentialLink: "https://credentials.databricks.com/7f998d3d-f843-4e75-a28b-5d9469bfe11e#acc.4Kbyc6LV"
       },
     {
       title: "AWS Certified Developer Associate",
       provider: "Amazon Web Services",
-      image: "/images/da.png",
+      image: da,
       credentialLink: "https://www.credly.com/badges/b44dc827-5653-4488-b929-7ca599014ebd/public_url"
     },
     {
       title: "AWS Certified Cloud Practitioner",
       provider: "Amazon Web Services",
-      image: "/images/cp.png",
+      image: cp,
       credentialLink: "https://www.credly.com/badges/82f1d9db-9404-4378-bf64-4d9ffd9ee964/public_url"
     },
     
       {
         title: "Automation Anywhere Certified Essentials RPA Professional (Automation 360)",
         provider: "Automation Anywhere",
-        image: "/images/aa.png",
+        image: aa,
         credentialLink: "https://certificates.automationanywhere.com/dcab6aea-b2ca-4748-8ad4-67f870bb7b2d#acc.IA4iWjm0"
       },
       {
         title: "Red Hat Certified Enterprise Application Developer",
         provider: "RedHat",
-        image: "/images/redhat.png",
+        image: rh,
         credentialLink: "https://www.credly.com/badges/94a7e0cd-3b88-4fe6-b313-3075e5286e6c/public_url"
       },
       {
